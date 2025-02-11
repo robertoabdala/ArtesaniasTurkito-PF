@@ -1,0 +1,44 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    min-height: 741px;
+}
+.titulo-header{
+    color: black;
+    text-shadow: white 2px 2px;
+}
+.iconos{
+    display: flex;
+    height: 10rem;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+}
+.icono{
+    text-align: center;
+    color: black;
+}
+.contenedor-footer{
+    display: flex;
+}
+.logo{
+    height: 12rem;
+}
+.contenedor-redes{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #72706f;
+    color: black;
+}
+.redes{
+    color: black;
+}
