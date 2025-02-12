@@ -42,3 +42,10 @@
 .redes{
     color: black;
 }
+.mapa{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkgrey;
+    color: black;
+}
