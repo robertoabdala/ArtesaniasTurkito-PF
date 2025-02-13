@@ -49,3 +49,72 @@
     background-color: darkgrey;
     color: black;
 }
+.informacion{
+    margin-top: 3rem;
+    text-align: center;
+}
+.informacion h1{
+    margin-bottom: 2rem;
+}
+.informacion p{
+    margin-bottom: 5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.carousel-item img{
+    width: 80vw;
+    height: 35rem;
+}
+.carrusel{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.grid-contenedor{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-areas: "A B C"
+    "D E F"
+    "G H I"
+    "J K L";
+    gap: 2rem;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.A{
+    grid-area: A;
+}
+.B{
+    grid-area: B;
+}
+.C{
+    grid-area: C;
+}
+.D{
+    grid-area: D;
+}
+.E{
+    grid-area: E;
+}
+.F{
+    grid-area: F;
+}
+.G{
+    grid-area: G;
+}
+.H{
+    grid-area: H;
+}
+.I{
+    grid-area: I;
+}
+.J{
+    grid-area: J;
+}
+.K{
+    grid-area: K;
+}
+.L{
+    grid-area: L;
+}
