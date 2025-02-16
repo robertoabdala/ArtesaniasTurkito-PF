@@ -172,6 +172,7 @@
     }
     .contenedor-redes{
         flex-direction: column;
+        font-size: 3rem;
     }
     .logo{
         height: auto;
