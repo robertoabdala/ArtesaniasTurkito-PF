@@ -118,6 +118,19 @@
 .L{
     grid-area: L;
 }
+    .card{
+        transition: transform 2s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+        transform: translateY(-20px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    .navbar-brand{
+        transition: transform 1s ease;
+    }
+    .navbar-brand:hover {
+        transform: rotateY(360deg);
+    }
 @media (max-width: 1023px){
     .banner{
         min-height: inherit;
@@ -182,5 +195,5 @@
         "L";
         gap: 4rem;
          }
-        
+
 }
