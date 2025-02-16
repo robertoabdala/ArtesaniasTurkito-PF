@@ -118,3 +118,32 @@
 .L{
     grid-area: L;
 }
+@media (max-width: 1023px){
+    .banner{
+        min-height: inherit;
+        height: 35rem;
+        background-size: cover
+    }
+    .carousel-item img{
+        height: 25rem;
+    }
+    .grid-contenedor{
+        grid-template-areas: "A B"
+        "C D" 
+        "E F"
+        "G H"
+        "I J"
+        "K L";
+        gap: 0.2rem;
+    }
+    .mapa{
+        flex-direction: column;
+    }
+    .mapa h1{
+        margin-top: 2rem;
+    }
+    iframe{
+        width: 90%;
+        margin-bottom: 3rem;
+    }
+}
