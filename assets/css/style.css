@@ -1,200 +1,191 @@
-.banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    background-image: url("../img/banner.jpg");
-    background-size: cover;
-    min-height: 741px;
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  min-height: 741px;
 }
-.titulo-header{
-    color: black;
-    text-shadow: white 2px 2px;
-}
-.iconos{
-    display: flex;
-    height: 10rem;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    background-color: gray;
-}
-.icono{
-    text-align: center;
-    color: black;
-}
-.contenedor-footer{
-    display: flex;
-}
-.logo{
-    height: 12rem;
-}
-.contenedor-redes{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 1.5rem;
-    background-color: #72706f;
-    color: black;
-}
-.redes{
-    color: black;
-}
-.mapa{
-    display:flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: darkgrey;
-    color: black;
-}
-.informacion{
-    margin-top: 3rem;
-    text-align: center;
-}
-.informacion h1{
-    margin-bottom: 2rem;
-}
-.informacion p{
-    margin-bottom: 5rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
-}
-.carousel-item img{
-    width: 80vw;
-    height: 35rem;
-}
-.carrusel{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 3rem;
-}
-.grid-contenedor{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    display: grid;
-    grid-template-areas: "A B C"
-    "D E F"
-    "G H I"
-    "J K L";
-    gap: 2rem;
-    text-align: center;
-    justify-content: space-evenly;
-}
-.A{
-    grid-area: A;
-}
-.B{
-    grid-area: B;
-}
-.C{
-    grid-area: C;
-}
-.D{
-    grid-area: D;
-}
-.E{
-    grid-area: E;
-}
-.F{
-    grid-area: F;
-}
-.G{
-    grid-area: G;
-}
-.H{
-    grid-area: H;
-}
-.I{
-    grid-area: I;
-}
-.J{
-    grid-area: J;
-}
-.K{
-    grid-area: K;
-}
-.L{
-    grid-area: L;
-}
-    .card{
-        transition: transform 2s ease, box-shadow 0.3s ease;
-    }
-    .card:hover {
-        transform: translateY(-20px);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    }
-    .navbar-brand{
-        transition: transform 1s ease;
-    }
-    .navbar-brand:hover {
-        transform: rotateY(360deg);
-    }
-@media (max-width: 1023px){
-    .banner{
-        min-height: inherit;
-        height: 35rem;
-        background-size: cover
-    }
-    .carousel-item img{
-        height: 25rem;
-    }
-    .grid-contenedor{
-        grid-template-areas: "A B"
-        "C D" 
-        "E F"
-        "G H"
-        "I J"
-        "K L";
-        gap: 0.2rem;
-    }
-    .mapa{
-        flex-direction: column;
-    }
-    .mapa h1{
-        margin-top: 2rem;
-    }
-    iframe{
-        width: 90%;
-        margin-bottom: 3rem;
-    }
-}
-@media (max-width:599px){
-    .iconos{
-        flex-direction: column;
-        height: 20rem;
-    } 
-    .contenedor-footer{
-        flex-direction: column;
-        align-items: center;
-        background-color: #72706f;
-    }
-    .contenedor-redes{
-        flex-direction: column;
-        font-size: 3rem;
-    }
-    .logo{
-        height: auto;
-        width: 100vw;
-    }
-    .carousel-item img{
-        height: 20rem;
-    }
-    .grid-contenedor{
-        grid-template-areas: "A"
-        "B"
-        "C"
-        "D"
-        "E"
-        "F"
-        "G"
-        "H"
-        "I"
-        "J"
-        "K"
-        "L";
-        gap: 4rem;
-         }
 
+.titulo-header {
+  color: black;
+  text-shadow: white 2px 2px;
 }
+
+.iconos {
+  display: flex;
+  height: 10rem;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: gray;
+}
+.iconos .icono {
+  text-align: center;
+  color: black;
+}
+
+.contenedor-footer {
+  display: flex;
+}
+
+.logo {
+  height: 12rem;
+}
+
+.contenedor-redes {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: #72706f;
+  color: black;
+}
+.contenedor-redes .redes {
+  color: black;
+}
+
+.mapa {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: darkgrey;
+  color: black;
+}
+
+.informacion {
+  margin-top: 3rem;
+  text-align: center;
+}
+.informacion h1 {
+  margin-bottom: 2rem;
+}
+.informacion p {
+  margin-bottom: 5rem;
+  padding: 0 6rem;
+}
+
+.carousel-item img {
+  width: 80vw;
+  height: 35rem;
+}
+
+.carrusel {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.grid-contenedor {
+  margin: 3rem 0;
+  display: grid;
+  grid-template-areas: "A B C" "D E F" "G H I" "J K L";
+  gap: 2rem;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.grid-contenedor .A {
+  grid-area: A;
+}
+.grid-contenedor .B {
+  grid-area: B;
+}
+.grid-contenedor .C {
+  grid-area: C;
+}
+.grid-contenedor .D {
+  grid-area: D;
+}
+.grid-contenedor .E {
+  grid-area: E;
+}
+.grid-contenedor .F {
+  grid-area: F;
+}
+.grid-contenedor .G {
+  grid-area: G;
+}
+.grid-contenedor .H {
+  grid-area: H;
+}
+.grid-contenedor .I {
+  grid-area: I;
+}
+.grid-contenedor .J {
+  grid-area: J;
+}
+.grid-contenedor .K {
+  grid-area: K;
+}
+.grid-contenedor .L {
+  grid-area: L;
+}
+
+.card {
+  transition: transform 2s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  transition: transform 1s ease;
+}
+.navbar-brand:hover {
+  transform: rotateY(360deg);
+}
+
+@media (max-width: 1023px) {
+  .banner {
+    min-height: inherit;
+    height: 35rem;
+    background-size: cover;
+  }
+  .carousel-item img {
+    height: 25rem;
+  }
+  .grid-contenedor {
+    grid-template-areas: "A B" "C D" "E F" "G H" "I J" "K L";
+    gap: 0.2rem;
+  }
+  .mapa {
+    flex-direction: column;
+  }
+  .mapa h1 {
+    margin-top: 2rem;
+  }
+  iframe {
+    width: 90%;
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 599px) {
+  .iconos {
+    flex-direction: column;
+    height: 20rem;
+  }
+  .contenedor-footer {
+    flex-direction: column;
+    align-items: center;
+    background-color: #72706f;
+  }
+  .contenedor-redes {
+    flex-direction: column;
+    font-size: 3rem;
+  }
+  .logo {
+    height: auto;
+    width: 100vw;
+  }
+  .carousel-item img {
+    height: 20rem;
+  }
+  .grid-contenedor {
+    grid-template-areas: "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L";
+    gap: 4rem;
+  }
+}/*# sourceMappingURL=style.css.map */
